@@ -86,5 +86,15 @@ namespace GUI
         {
             openForm(new FrmLogin());
         }
+
+        private void loạiHàngToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            openForm(new FrmCategory());
+        }
+
+        private void mặtHàngToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            openForm(new FrmDrug());
+        }
     }
 }

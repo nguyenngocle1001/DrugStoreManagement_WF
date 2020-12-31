@@ -107,7 +107,7 @@ namespace GUI
             this.label1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.label1.Size = new System.Drawing.Size(800, 40);
             this.label1.TabIndex = 7;
-            this.label1.Text = "QUẢN LÝ BÁN HÀNG";
+            this.label1.Text = "QUẢN LÝ NHÀ THUỐC";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // menuStrip1
@@ -194,19 +194,21 @@ namespace GUI
             // mặtHàngToolStripMenuItem1
             // 
             this.mặtHàngToolStripMenuItem1.Name = "mặtHàngToolStripMenuItem1";
-            this.mặtHàngToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.mặtHàngToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.mặtHàngToolStripMenuItem1.Text = "Mặt hàng";
+            this.mặtHàngToolStripMenuItem1.Click += new System.EventHandler(this.mặtHàngToolStripMenuItem1_Click);
             // 
             // loạiHàngToolStripMenuItem1
             // 
             this.loạiHàngToolStripMenuItem1.Name = "loạiHàngToolStripMenuItem1";
-            this.loạiHàngToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.loạiHàngToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.loạiHàngToolStripMenuItem1.Text = "Loại hàng";
+            this.loạiHàngToolStripMenuItem1.Click += new System.EventHandler(this.loạiHàngToolStripMenuItem1_Click);
             // 
             // nhânViênToolStripMenuItem1
             // 
             this.nhânViênToolStripMenuItem1.Name = "nhânViênToolStripMenuItem1";
-            this.nhânViênToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.nhânViênToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.nhânViênToolStripMenuItem1.Text = "Nhân viên";
             this.nhânViênToolStripMenuItem1.Click += new System.EventHandler(this.nhânViênToolStripMenuItem1_Click);
             // 

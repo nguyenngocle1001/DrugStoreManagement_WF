@@ -50,17 +50,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\LoadMenu.cs" />
+    <Compile Include="Class\CustomValidate.cs" />
     <Compile Include="FormSplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormSplashScreen.Designer.cs">
       <DependentUpon>FormSplashScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmDMNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmDMNhanVien.Designer.cs">
       <DependentUpon>FrmDMNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrug.Designer.cs">
+      <DependentUpon>FrmDrug.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmHeThong.cs">
       <SubType>Form</SubType>
@@ -79,8 +92,14 @@
     <EmbeddedResource Include="FormSplashScreen.resx">
       <DependentUpon>FormSplashScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmDMNhanVien.resx">
       <DependentUpon>FrmDMNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrug.resx">
+      <DependentUpon>FrmDrug.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHeThong.resx">
       <DependentUpon>FrmHeThong.cs</DependentUpon>

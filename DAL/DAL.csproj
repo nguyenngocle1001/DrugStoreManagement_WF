@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL_DBConnect.cs" />
+    <Compile Include="DAL_Drug.cs" />
+    <Compile Include="DAL_Employee.cs" />
+    <Compile Include="DAL_Category.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

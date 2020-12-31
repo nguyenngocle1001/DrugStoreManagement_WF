@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTO_DBConnect.cs" />
+    <Compile Include="DTO_Drug.cs" />
+    <Compile Include="DTO_Employee.cs" />
+    <Compile Include="DTO_Category.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
